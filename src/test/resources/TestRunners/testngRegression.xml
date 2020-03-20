@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite  name="CRM Test Suite" >
+  <test  name="My Testing Practice Test" verbose="2" >
+    <classes>
+      <class name="TestNGSessions.DependsOnMethodsConcepts"/>
+       <class name="TestNGSessions.ExpectedExceptionConcept"/>
+        <class name="TestNGSessions.InvocationCountCOncepts"/>
+         <class name="TestNGSessions.PriorityTest"/>
+         
+    </classes>
+  </test> 
+</suite> 

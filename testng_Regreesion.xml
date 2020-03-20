@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CRM Test Suite">
+  <test thread-count="5" name="CRM Sales Regression Test">
+    <classes>
+      <class name="TestNGSessions.PriorityConcepts"/>
+      <class name="TestNGSessions.DependsOnMethodsConcepts"/>
+      <class name="TestNGSessions.LoginTestWithAllAnnotations"/>
+      <class name="TestNGSessions.InvocationCountCOncepts"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
